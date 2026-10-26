@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.streamlit/secrets.toml
+data/*.db-shm
+data/*.db-wal
+sample_data/genuine/*
+!sample_data/genuine/.gitkeep
+!sample_data/genuine/veridoc_demo_certificate.png
+sample_data/tampered/*
+!sample_data/tampered/.gitkeep
